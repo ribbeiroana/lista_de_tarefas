@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(153, 87, 228);
+  background: linear-gradient(90deg, rgba(153, 87, 228, 1) 0%, rgba(64, 6, 111, 1) 100%);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #9957e4;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-tarefa {
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: none;
+}
+.btn-tarefa, .apagar {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  font-family: 'Open sans', sans-serif;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+}
+
